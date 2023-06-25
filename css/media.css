@@ -162,6 +162,14 @@
   .footer-container {
     max-width: 582px;
   }
+
+  .modal {
+    width: 408px;
+  }
+
+  .mob-soc-list {
+    gap: 56px;
+  }
 }
 
 /* --------1200---------- */
