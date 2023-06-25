@@ -67,6 +67,18 @@
     margin-bottom: 48px;
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(25, 28, 38, 0.2),
+          rgba(25, 28, 38, 0.2)
+        ),
+        url(../images/office-image-tabl.jpg);
+    }
+  }
+
   .goal-card {
     display: flex;
     flex-wrap: wrap;
@@ -161,6 +173,18 @@
 
   .sub-adress-container {
     display: flex;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(25, 28, 38, 0.2),
+          rgba(25, 28, 38, 0.2)
+        ),
+        url(../images/office-image.jpg);
+    }
   }
 
   .team-container {

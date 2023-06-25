@@ -291,7 +291,7 @@ body {
 /* ----------HERO1--------- */
 .hero {
   background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
-    url(../images/office-image.jpg);
+    url(../images/office-image-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 428px;
