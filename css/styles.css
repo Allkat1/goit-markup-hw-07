@@ -577,8 +577,6 @@ body {
 
 .footer-container {
   position: relative;
-  /* display: inline-block;
-  display: flex; */
 }
 
 .footer {
@@ -823,7 +821,7 @@ body {
 
 .footer-input-wrap {
   /* display: flex; */
-  gap: 24px;
+  gap: 48px;
 }
 
 .footer-input {
