@@ -1,0 +1,166 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 396px;
+  }
+
+  /* .list-container {
+    display: flex;
+  } */
+
+  /* .menu-open-btn {
+    display: none;
+  } */
+
+  /* .sub-adress-container {
+    display: block;
+      align-items: center;
+    gap: 40px;
+  }
+  .adress-container {
+    display: block;
+    margin-left: auto;
+  } */
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .list-container {
+    display: flex;
+  }
+  .adress-container {
+    display: block;
+    margin-left: auto;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .sub-adress-container {
+    display: inline-block;
+
+    align-items: center;
+    gap: 40px;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .list-container {
+    display: flex;
+  }
+
+  .hero {
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-caption {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
+
+  .goal-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 36px) / 2);
+  }
+
+  .goals-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 24px;
+  }
+
+  .team-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .customer-item {
+    width: calc((100% - 60px) / 3);
+    height: 88px;
+  }
+
+  .tablet-footer {
+    display: flex;
+  }
+
+  .footer-input-wrap {
+    display: flex;
+  }
+}
+
+/* --------1200---------- */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .hero {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .goal-card {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .goals-pic {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--cloud-color);
+    margin-bottom: 8px;
+  }
+
+  .examples-list {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-card {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customer-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+
+  .footer-links {
+    display: flex;
+  }
+
+  .footer-input-wrap {
+    display: flex;
+    gap: 24px;
+  }
+}
