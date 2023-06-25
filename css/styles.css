@@ -1018,6 +1018,10 @@ body {
   color: var(--links-text-color);
 }
 
+.modal-check:hover + .check-text {
+  color: var(--links-text-color);
+}
+
 .modal-inp-name {
   position: relative;
 }
