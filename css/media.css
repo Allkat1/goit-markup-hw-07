@@ -88,9 +88,14 @@
     margin-bottom: 64px;
   }
 
+  .team-container {
+    max-width: 582px;
+  }
+
   .customer-item {
     width: calc((100% - 60px) / 3);
     height: 88px;
+    align-items: center;
   }
 
   .tablet-footer {
@@ -100,12 +105,48 @@
   .footer-input-wrap {
     display: flex;
   }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .footer-descr {
+    margin-right: 120px;
+  }
+
+  .footer-text {
+    display: block;
+    width: 264px;
+  }
+
+  .soc-media-block {
+    margin-right: 80px;
+  }
+
+  .footer-logo {
+    display: block;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .footer-subscribe {
+    /* position: relative; */
+    /* margin-left: 30px; */
+  }
+
+  .subscribe-text {
+    text-align: left;
+  }
 }
 
 /* --------1200---------- */
 
 @media screen and (min-width: 1200px) {
   .container {
+    max-width: 1158px;
+  }
+
+  .team-container {
     max-width: 1158px;
   }
 
@@ -162,5 +203,9 @@
   .footer-input-wrap {
     display: flex;
     gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
   }
 }

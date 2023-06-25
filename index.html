@@ -72,11 +72,13 @@
       <div class="mob-menu is-hidden" data-menu>
         <div>
           <button type="button" class="menu-close-btn" data-menu-close>
-            X
+            <svg class="modal-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
           </button>
           <ul class="list mob-list-container">
             <li>
-              <a class="link mob-header-nav active" href="./index.html"
+              <a class="link mob-header-nav mob-active" href="./index.html"
                 >Studio</a
               >
             </li>
@@ -91,18 +93,18 @@
         <div>
           <ul class="list mob-adress-container">
             <li>
-              <a class="link -mob-address" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+              <a class="link mob-address-ph" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
               >
             </li>
             <li>
-              <a class="link mob-address" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
+              <a class="link mob-address" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
           </ul>
 
-          <ul class="worker-soc-list list">
+          <ul class="mob-soc-list list">
             <li class="worker-soc-item link">
               <a
                 href=""
@@ -110,43 +112,43 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="worker-soc-icon" width="16" height="16">
+                <svg class="worker-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="worker-soc-item link">
+            <li class="mob-soc-item link">
               <a
                 href=""
                 class="worker-soc-link link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="worker-soc-icon" width="16" height="16">
+                <svg class="worker-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="worker-soc-item link">
+            <li class="mob-soc-item link">
               <a
                 href="./images/icons.svg#icon-twitter"
                 class="worker-soc-link link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="worker-soc-icon" width="16" height="16">
+                <svg class="worker-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="worker-soc-item link">
+            <li class="mob-soc-item link">
               <a
                 href=""
                 class="worker-soc-link link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="worker-soc-icon" width="16" height="16">
+                <svg class="worker-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -516,7 +518,7 @@
 
       <!-- CUSTOMER SECTION -->
       <section class="customers-section">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="sections-title">Customers</h2>
           <ul class="customer-list list">
             <li class="customer-item">
@@ -572,7 +574,7 @@
       <div class="container footer-container footer-links">
         <div class="tablet-footer">
           <div class="footer-descr">
-            <a href="./index.html" class="logo link"
+            <a href="./index.html" class="logo link footer-logo"
               >Web<span class="logo-secondary-alt">Studio</span></a
             >
             <p class="footer-text">
