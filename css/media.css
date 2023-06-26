@@ -1,6 +1,7 @@
 @media screen and (min-width: 428px) {
   .container {
     max-width: 360px;
+    max-width: 428px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -33,9 +34,9 @@
     left: 250px;
   }
 
-  .goals-container {
+  /* .goals-container {
     width: 428px;
-  }
+  } */
 }
 /* ======tablet======= */
 
