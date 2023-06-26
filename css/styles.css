@@ -332,6 +332,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 /* ----------buttons--------- */
@@ -399,7 +400,12 @@ body {
   gap: 72px 24px;
 }
 
+.goal-card:last-child {
+  margin-bottom: 0;
+}
+
 .goals {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -416,6 +422,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .goals-pic {
@@ -619,7 +626,7 @@ body {
 
 .footer-text {
   display: block;
-  width: 268px;
+  max-width: 268px;
   margin: 0 auto;
 }
 
