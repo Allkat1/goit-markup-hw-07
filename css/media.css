@@ -233,6 +233,9 @@
     padding-bottom: 188px;
   }
 
+  .goals-section {
+    padding: 120px 0;
+  }
   .goal-card {
     width: calc((100% - 72px) / 4);
     margin-bottom: 0;
