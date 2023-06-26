@@ -1,25 +1,29 @@
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 396px;
+    max-width: 360px;
   }
 
-  /* .list-container {
-    display: flex;
-  } */
-
-  /* .menu-open-btn {
-    display: none;
-  } */
-
-  /* .sub-adress-container {
-    display: block;
-      align-items: center;
-    gap: 40px;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+        url(../images/office-image-mob-2x.jpg);
+    }
   }
-  .adress-container {
-    display: block;
-    margin-left: auto;
-  } */
+
+  .footer-subscribe {
+    /* position: relative; */
+    width: 320px;
+  }
+
+  .hero-caption {
+    font-size: 36px;
+  }
+
+  .mob-address-ph {
+    font-size: 36px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -56,27 +60,24 @@
   }
 
   .hero {
+    background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+      url(../images/office-image-tabl.jpg);
     max-width: 768px;
-    padding-top: 112px;
-    padding-bottom: 112px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+        url(../images/office-image-tabl-2x.jpg);
+    }
   }
 
   .hero-caption {
     font-size: 56px;
     max-width: 496px;
     margin-bottom: 48px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-wrap {
-      background-image: linear-gradient(
-          rgba(25, 28, 38, 0.2),
-          rgba(25, 28, 38, 0.2)
-        ),
-        url(../images/office-image-tabl.jpg);
-    }
   }
 
   .goal-card {
@@ -89,15 +90,15 @@
     display: flex;
     flex-wrap: wrap;
 
-    gap: 24px;
+    /* gap: 72px 24px; */
   }
 
   .team-wrap {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 24px;
-    margin-bottom: 64px;
+    gap: 72px 24px;
+    /* margin-bottom: 64px; */
   }
 
   .team-container {
@@ -112,23 +113,23 @@
 
   .tablet-footer {
     display: flex;
-  }
-
-  .footer-input-wrap {
-    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0;
   }
 
   .footer-input {
     width: 264px;
   }
 
-  .footer-descr {
-    margin-right: 24px;
+  .footer-input-wrap {
+    width: 264px;
   }
 
   .footer-text {
     display: block;
     width: 264px;
+    margin-bottom: 0;
   }
 
   .soc-media-block {
@@ -155,8 +156,8 @@
   }
 
   .footer-input-wrap {
-    /* display: flex; */
-    gap: 48px;
+    display: flex;
+    gap: 24px;
   }
 
   .footer-container {
@@ -172,6 +173,10 @@
   }
 }
 
+.address {
+  font-size: 12px;
+}
+
 /* --------1200---------- */
 
 @media screen and (min-width: 1158px) {
@@ -181,6 +186,10 @@
 
   .sub-adress-container {
     display: flex;
+  }
+
+  .address {
+    font-size: 16px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -200,6 +209,8 @@
   }
 
   .hero {
+    background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+      url(../images/office-image.jpg);
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -207,6 +218,11 @@
 
   .goal-card {
     width: calc((100% - 72px) / 4);
+    margin-bottom: 0;
+  }
+
+  .goals-subtitle {
+    font-size: 36px;
   }
 
   .goals-pic {
@@ -258,12 +274,28 @@
     width: 264px;
   }
 
-  .footer-input-wrap {
-    /* display: flex; */
-    gap: 24px;
+  .footer-descr {
+    /* margin-right: 120px; */
   }
 
-  .footer-descr {
-    margin-right: 120px;
+  .soc-media-block {
+    margin-right: 0;
+  }
+
+  .footer-caption {
+    margin-left: 0;
+    margin-bottom: 16px;
+  }
+
+  .footer-container {
+    gap: 80px;
+  }
+
+  .tablet-footer {
+    gap: 120px;
+  }
+
+  .footer-container {
+    flex-direction: row;
   }
 }
